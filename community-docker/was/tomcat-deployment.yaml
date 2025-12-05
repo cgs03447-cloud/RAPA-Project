@@ -6,7 +6,7 @@ metadata:
   labels:
     app: tomcat-was
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: tomcat-was
